@@ -24,6 +24,7 @@ import com.liulishuo.okdownload.RedirectUtil;
 import com.liulishuo.okdownload.core.Util;
 
 import java.io.IOException;
+import java.io.Exception;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.ProtocolException;
@@ -152,7 +153,7 @@ public class DownloadUrlConnection implements DownloadConnection, DownloadConnec
         try {
             final InputStream inputStream = connection.getInputStream();
             if (inputStream != null) inputStream.close();
-        } catch (IOException ignored) {
+        } catch (Exception ignored) {
         }
     }
 
