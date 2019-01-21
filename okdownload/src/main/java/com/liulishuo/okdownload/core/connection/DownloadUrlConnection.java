@@ -24,7 +24,7 @@ import com.liulishuo.okdownload.RedirectUtil;
 import com.liulishuo.okdownload.core.Util;
 
 import java.io.IOException;
-import java.io.Exception;
+import java.lang.Exception;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.ProtocolException;
