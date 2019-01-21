@@ -44,11 +44,11 @@ def getRepositoryPassword() {
   return hasProperty('SONATYPE_NEXUS_PASSWORD') ? SONATYPE_NEXUS_PASSWORD : ""
 }
 
-afterEvaluate { project ->
+/*afterEvaluate { project ->
   uploadArchives {
     repositories {
       mavenDeployer {
-        /*beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }*/
+        *//*beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }*//*
 
         pom.groupId = GROUP
         pom.artifactId = POM_ARTIFACT_ID
@@ -217,4 +217,4 @@ afterEvaluate { project ->
       archives javadocJar
     }
   }
-}
+}*/
