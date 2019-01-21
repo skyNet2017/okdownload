@@ -1,6 +1,6 @@
 rootProject.name = 'okdownload-root'
 
-include ':okdownload', ':process', ':okhttp', ':sqlite', ':kotlin', ':benchmark', ':filedownloader', 'sample'
+include ':okdownload', ':process', ':okhttp', ':sqlite', ':kotlin', ':filedownloader', 'sample'
 
 project(':process').projectDir = new File(settingsDir, 'okdownload-process')
 project(':okhttp').projectDir = new File(settingsDir, 'okdownload-connection-okhttp')
